@@ -1,0 +1,30 @@
+img{
+    width: 30px;
+    cursor: pointer;
+    margin-left: 20px;
+  }
+  
+  h1{
+    font: 25px bold black;
+  }
+  
+  .main-back{
+    background-color: rgb(207, 206, 187);
+  }
+  
+  img:hover{
+    transform: scale(2);
+  }
+
+  img{
+    transition: transform 0.8s ease;
+  }
+
+  a{
+    color: rgb(110, 107, 107);
+  }
+
+  a:hover{
+    color: black;
+    text-decoration: none;
+  }
