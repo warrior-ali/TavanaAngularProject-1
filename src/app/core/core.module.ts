@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HomeModule } from '../home/home.module';
+import { AuthModule } from '../Authentication/auth.module';
 
 
 
@@ -8,10 +9,12 @@ import { HomeModule } from '../home/home.module';
   declarations: [],
   imports: [
     CommonModule,
-    HomeModule
+    HomeModule,
+    AuthModule
   ],
   exports:[
-    HomeModule
+    HomeModule,
+    AuthModule
   ]
 })
 export class CoreModule { }

@@ -19,8 +19,7 @@ import { HomeService } from './shared/service/home.service';
         HeaderComponent,
         NavbarComponent,
         AboutUsComponent,
-        BodyComponent,
-        HomeService
+        BodyComponent
     ],
     providers:[HomeService]
 })
