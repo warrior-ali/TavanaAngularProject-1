@@ -1,0 +1,26 @@
+.view {
+    background: url("https://mdbootstrap.com/img/Photos/Others/img (42).jpg") no-repeat center center;
+    background-size: cover;
+}
+@media (min-width: 350px) {
+    .view {
+        overflow: visible;
+        margin-top: 0px;
+    }
+}
+@media only screen and (max-width: 350px) {
+    .navbar {
+        background-color: #4285F4;
+    }
+}
+
+html,
+body,
+header,
+.view {
+  height: 280px;
+}
+
+.text{
+    padding-top: 25px;
+}

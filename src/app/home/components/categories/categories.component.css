@@ -19,15 +19,15 @@
 }
 
 .cat-item{
-	border: 2px solid black;
+	background-color: #eeeeee;
+	box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
 	border-radius: 6px;
 	width: 23%;
 	max-width: 23%;
-	margin: 0px 10px;
+	margin: 1% 1%;
+	cursor: pointer;
 }
 .backgroundcolor{
-	background: #007991;  /* fallback for old browsers */
-	background: rgb(236, 210, 210);
 	height: 100%;
 }
 
@@ -37,7 +37,37 @@
 }
 
 #dropdownimg{
-	width: 25px;
+	width: 100%;
+	height: 100%;
 	padding-bottom: 5px;
 	cursor: pointer;
+}
+
+
+
+.text-right{
+	width: 3vw;
+    height: 3.2vw;
+    right: 10%;
+    position: absolute;
+    top: 14%;
+}
+
+.cat-item:hover #dropdownimg{
+	transition: transform 0.4s;
+	transform: rotate(-90deg);
+	transform-origin: center;
+}
+
+#text{
+	font: 20px bold black;
+}
+
+#caption{
+	font: 15px normal black;
+}
+
+.row{
+	display: flex;
+	flex-wrap: wrap;
 }
