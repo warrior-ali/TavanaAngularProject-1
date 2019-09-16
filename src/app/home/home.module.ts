@@ -7,9 +7,10 @@ import { SharedModule } from '../shared/shared.module';
 import { AboutUsComponent } from './components/about-us/about-us.component';
 import { BodyComponent } from './components/body/body.component';
 import { HomeService } from './shared/service/home.service';
+import { CategoriesComponent } from './components/categories/categories.component';
 
 @NgModule({
-    declarations:[FooterComponent, HeaderComponent, NavbarComponent, AboutUsComponent, BodyComponent],
+    declarations:[FooterComponent, HeaderComponent, NavbarComponent, AboutUsComponent, BodyComponent, CategoriesComponent],
     imports:[
         CommonModule,
         SharedModule
@@ -19,7 +20,8 @@ import { HomeService } from './shared/service/home.service';
         HeaderComponent,
         NavbarComponent,
         AboutUsComponent,
-        BodyComponent
+        BodyComponent,
+        CategoriesComponent
     ],
     providers:[HomeService]
 })
